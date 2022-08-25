@@ -1,0 +1,35 @@
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://aula-feliz.notion.site/11-Caixas-flex-veis-2b176dfc001f49959afca1ece745cb92
+CSS tricks
+
+https://docs.google.com/document/d/1ieFuMV8BlMKXXx2UJlnx4waC89WWJoSRwfeAGrmaweI/edit
+
+
+https://codesandbox.io/s/ecstatic-mclean-uc5vzm?file=/index.html
+
+
+
+<div class = "Menu">
+<nav>
+    <ul type = "none">
+<li>
+    <a href ="#">Clientes</a>
+</li>
+<li>
+    <a href ="#">Sobre Mim</a>
+</li>
+<li>
+    <a href ="#">Soluções</a>
+</li>
+<li>
+    <a href ="#">Vagas</a>
+</li>
+<li>
+    <a href ="#">Blog</a>
+</li>
+
+<li>
+    <a href ="https://wa.me/5511986120991">WhattsApp</a>
+</li>
+    </ul>
+</nav>

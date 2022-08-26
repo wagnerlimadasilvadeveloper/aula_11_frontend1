@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-*{ box-sizing: border-box;
 
+*{ 
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    
+  
 }
 
 html{
@@ -9,10 +15,11 @@ html{
 
 header{
     display: flex;
+    height: 100px;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    padding: 5px;
+    background-color: #222222;
+    padding-left: 20px;
 }
 
 .menu>ul{
@@ -25,35 +32,47 @@ header{
 
 .menu>ul>li>a{
 color: #ffffff;
-margin-right: 5px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-right: 20px;
+font-family: 'roboto';
+text-decoration: none;
 }
 
 
 img{
     max-width: 100%;
-    vertical-align: middle;
+  
 }
 
 .conteudo{
     display: flex;
-    
     flex-direction: row;
     gap: 5px;
     background: #e5e5e5;
-    padding: 35px 19px; 
+    padding: 35px 19px;
+    
 
 
 }
 
 .card {
     flex: 1;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'roboto';
     background: #ffffff;
     border-radius: 5px;
       
     
   }
+
+  .card2{
+    align-items: center;
+  }
+
+  .{
+   align-items: center;
+  }
+
+   
+    
 
  h2{
     color:#FC200C;
@@ -61,18 +80,30 @@ img{
 
   footer{
     display: flex;
+    height: 150px;
     background-color: black;
     align-items: center;
     justify-content: space-between;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-right: 5px;
+    font-family: 'roboto';
+    padding-right: 10px;
+    
    
   }
 
   .menu_rodape>ul>li>a{
     color: #ffffff;
     margin: 10px;
+    text-decoration: none;
 
+    }
+
+    .menu>ul>li>a:hover{
+     color:green;   
+    }
+
+
+    .menu_rodape>ul>li>a:hover{
+     color:green;
     }
 
 
